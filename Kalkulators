@@ -1,0 +1,52 @@
+from tkinter import*
+kalkulators=Tk()
+kalkulators.title("Kalkulators")
+kalkulators.geometry("400x400")
+poga0=Button(kalkulators, text='0', padx='40', pady='20')
+poga1=Button(kalkulators, text='1', padx='40', pady='20')
+poga2=Button(kalkulators, text='2', padx='40', pady='20')
+poga3=Button(kalkulators, text='3', padx='40', pady='20')
+poga4=Button(kalkulators, text='4', padx='40', pady='20')
+poga5=Button(kalkulators, text='5', padx='40', pady='20')
+poga6=Button(kalkulators, text='6', padx='40', pady='20')
+poga7=Button(kalkulators, text='7', padx='40', pady='20')
+poga8=Button(kalkulators, text='8', padx='40', pady='20')
+poga9=Button(kalkulators, text='9', padx='40', pady='20')
+reiz=Button(kalkulators, text='*', padx='40', pady='20')
+minus=Button(kalkulators, text='-', padx='40', pady='20')
+plus=Button(kalkulators, text='+', padx='40', pady='20')
+vienadiba=Button(kalkulators, text='=', padx='40', pady='20')
+dzest=Button(kalkulators, text='C', padx='40', pady='20')
+iekavas=Button(kalkulators, text='()', padx='40', pady='20')
+procenti=Button(kalkulators, text='%', padx='40', pady='20')
+dalits=Button(kalkulators, text='/', padx='40', pady='20')
+
+dzest.grid(row=2, column=0)
+iekavas.grid(row=2, column=1)
+procenti.grid(row=2,column=2)
+dalits.grid(row=2,column=3)
+
+poga0.grid(row=6, column=1 )
+poga1.grid(row=3, column=0 )
+poga2.grid(row=3, column=1 )
+reiz.grid(row=3, column=3)
+
+poga3.grid(row=3, column=2 )
+poga4.grid(row=4, column=0 )
+poga5.grid(row=4, column=1 )
+minus.grid(row=4, column=3)
+
+poga6.grid(row=4, column=2 )
+poga7.grid(row=5, column=0 )
+poga8.grid(row=5, column=1 )
+plus.grid(row=5 ,column=3)
+
+poga9.grid(row=5, column=2)
+
+vienadiba.grid(row=6,column=3)
+
+
+
+
+
+mainloop()
